@@ -18,7 +18,8 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
     inner class BookListViewHolder(private val binding: ShowItemListBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(position: Int) {
-
+            val itemNow = listOfBook[position]
+            binding.tvBookTitle.text = itemNow.bookTitle
         }
     }
 
@@ -33,7 +34,7 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return listOfBook.size
     }
 
     override fun onBindViewHolder(holder: BookListViewHolder, position: Int) {
