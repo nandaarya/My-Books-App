@@ -7,9 +7,9 @@ import com.example.my_books_app.databinding.ShowItemListBinding
 
 class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>() {
 
-    private var listOfBook = ArrayList<String>()
+    private var listOfBook = ArrayList<Book>()
 
-    fun addBookList(list: List<String>) {
+    fun addBookList(list: List<Book>) {
         this.listOfBook.clear()
         this.listOfBook.addAll(list)
         notifyDataSetChanged()
