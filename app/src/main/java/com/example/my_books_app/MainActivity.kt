@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-
+        setBookList()
     }
 
     private fun setBookList() {
