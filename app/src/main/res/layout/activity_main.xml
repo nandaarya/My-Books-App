@@ -15,7 +15,7 @@
         android:gravity="center"
         android:layout_margin="24dp"
         android:textSize="28sp"
-        android:text="Daftar Pengguna" />
+        android:text="List Buku Favorit" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_book_list"
