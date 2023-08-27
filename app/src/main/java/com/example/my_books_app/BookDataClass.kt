@@ -1,49 +1,39 @@
 package com.example.my_books_app
 
+import android.os.Parcel
+import android.os.Parcelable
+
 data class Book(
-    var bookTitle: String,
-    var authorName: String,
-    var publicationYear: String,
-    var category: String,
-) {
-    companion object {
-        val bookList = listOf(
-            Book(
-                "Surat Kecil untuk Tuhan",
-                "Agnes Davonar",
-                "2008",
-                "Novel",
-            ),
-            Book(
-                "Laskar Pelangi",
-                "Andrea Hirata",
-                "2005",
-                "Novel",
-            ),
-            Book(
-                "Filosofi Teras",
-                "Henry Manampiring",
-                "2018",
-                "Non-Fiksi, Motivasi",
-            ),
-            Book(
-                "Habibi & Ainun",
-                "Bacharuddin Jusuf Habibie",
-                "2010",
-                "Biografi",
-            ),
-            Book(
-                "Sang Pemimpi",
-                "Andrea Hirata",
-                "2006",
-                "Novel",
-            ),
-            Book(
-                "Edensor",
-                "Andrea Hirata",
-                "2007",
-                "Novel",
-            )
-        )
+    var bookTitle: String?,
+    var authorName: String?,
+    var publicationYear: String?,
+    var category: String?
+) : Parcelable {
+    constructor(parcel: Parcel) : this(
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString()
+    )
+
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeString(bookTitle)
+        parcel.writeString(authorName)
+        parcel.writeString(publicationYear)
+        parcel.writeString(category)
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<Book> {
+        override fun createFromParcel(parcel: Parcel): Book {
+            return Book(parcel)
+        }
+
+        override fun newArray(size: Int): Array<Book?> {
+            return arrayOfNulls(size)
+        }
     }
 }

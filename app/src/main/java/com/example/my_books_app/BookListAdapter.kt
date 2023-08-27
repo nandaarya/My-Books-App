@@ -1,5 +1,6 @@
 package com.example.my_books_app
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -20,6 +21,11 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
         fun bind(position: Int) {
             val itemNow = listOfBook[position]
             binding.tvBookTitle.text = itemNow.bookTitle
+
+            binding.cardView.setOnClickListener {
+                val intent = Intent(itemView.context, DetailBookActivity::class.java)
+                itemView.context.startActivity(intent)
+            }
         }
     }
 

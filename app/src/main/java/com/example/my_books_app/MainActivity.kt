@@ -24,6 +24,6 @@ class MainActivity : AppCompatActivity() {
         binding.rvBookList.layoutManager = LinearLayoutManager(this)
         binding.rvBookList.adapter = rvBookListAdapter
 
-        rvBookListAdapter.addBookList(Book.bookList)
+        rvBookListAdapter.addBookList(BookList.bookList)
     }
 }
