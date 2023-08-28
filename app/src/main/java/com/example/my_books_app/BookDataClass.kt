@@ -8,9 +8,11 @@ data class Book(
     var bookTitle: String,
     var authorName: String,
     var publicationYear: String,
-    var category: String
+    var category: String,
+    var synopsis: String
 ): Parcelable {
     constructor(parcel: Parcel) : this(
+        parcel.readString()!!,
         parcel.readString()!!,
         parcel.readString()!!,
         parcel.readString()!!,
@@ -24,6 +26,7 @@ data class Book(
         parcel.writeString(authorName)
         parcel.writeString(publicationYear)
         parcel.writeString(category)
+        parcel.writeString(synopsis)
     }
 
     override fun describeContents(): Int {

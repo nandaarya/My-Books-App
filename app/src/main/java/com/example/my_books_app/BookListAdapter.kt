@@ -21,13 +21,25 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
         RecyclerView.ViewHolder(binding.root) {
         fun bind(position: Int) {
             val itemNow = listOfBook[position]
-            binding.tvBookTitle.text = itemNow.bookTitle
 
             Glide
                 .with(itemView.context)
                 .load(itemNow.bookCover)
                 .fitCenter()
                 .into(binding.ivBookCover)
+
+            val maxLength = 230 // Jumlah maksimal karakter yang ingin ditampilkan
+            val ellipsis = "..." // Tanda elipsis yang akan ditambahkan jika teks terpotong
+
+            val originalText = itemNow.synopsis
+            val overview = if (originalText.length > maxLength) {
+                originalText.substring(0, maxLength - ellipsis.length) + ellipsis
+            } else {
+                originalText
+            }
+
+            binding.tvBookTitle.text = itemNow.bookTitle
+            binding.tvSinopsis.text = overview
 
             binding.cardView.setOnClickListener {
                 val intent = Intent(itemView.context, DetailBookActivity::class.java)
