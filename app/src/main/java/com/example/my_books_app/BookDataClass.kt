@@ -4,19 +4,22 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class Book(
-    var bookTitle: String?,
-    var authorName: String?,
-    var publicationYear: String?,
-    var category: String?
-) : Parcelable {
+    var bookCover: String,
+    var bookTitle: String,
+    var authorName: String,
+    var publicationYear: String,
+    var category: String
+): Parcelable {
     constructor(parcel: Parcel) : this(
-        parcel.readString(),
-        parcel.readString(),
-        parcel.readString(),
-        parcel.readString()
+        parcel.readString()!!,
+        parcel.readString()!!,
+        parcel.readString()!!,
+        parcel.readString()!!,
+        parcel.readString()!!
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeString(bookCover)
         parcel.writeString(bookTitle)
         parcel.writeString(authorName)
         parcel.writeString(publicationYear)

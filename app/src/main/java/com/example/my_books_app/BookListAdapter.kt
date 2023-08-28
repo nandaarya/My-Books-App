@@ -4,6 +4,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.my_books_app.databinding.ShowItemListBinding
 
 class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>() {
@@ -21,6 +22,12 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
         fun bind(position: Int) {
             val itemNow = listOfBook[position]
             binding.tvBookTitle.text = itemNow.bookTitle
+
+            Glide
+                .with(itemView.context)
+                .load(itemNow.bookCover)
+                .fitCenter()
+                .into(binding.ivBookCover)
 
             binding.cardView.setOnClickListener {
                 val intent = Intent(itemView.context, DetailBookActivity::class.java)
