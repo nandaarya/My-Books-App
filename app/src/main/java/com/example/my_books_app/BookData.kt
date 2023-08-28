@@ -19,7 +19,9 @@ object BookList {
             "Andrea Hirata",
             "2005",
             "Novel",
-            "Sinopsis"
+            "Novel Laskar Pelangi menceritakan kehidupan 10 anak yang tidak mampu, tetapi memiliki semangat juang untuk melanjutkan pendidikannya di kampung Gantung, Kepulauan Bangka Belitung. Sebagian besar dari kesepuluh anak yang menempuh pendidikan di SD Muhammadiyah Gantung merupakan anak dari para penambang timah di pulau dengan perolehan kekayaan alam timah yang terbesar di dunia." +
+                    "Meski demikian, hal tersebut berbanding terbalik dengan taraf kesejahteraan masyarakat asli di suatu daerah. Realitas itu yang mesti diterima oleh seluruh kalangan, mulai dari anak-anak, para orang tuanya, bahkan masyarakat miskin di daerah setempat." +
+                    "Di balik keterbatasan yang harus mereka hadapi, baik itu dalam bentuk sarana dan prasarana maupun tenaga pendidik, kesepuluh anak yang menjadi tokoh utama dalam novel ini tetap mempunyai semangat juang dalam kegiatan pendidikan yang tengah mereka tempuh."
         ),
         Book(
             "https://ebooks.gramedia.com/ebook-covers/45496/image_highres/ID_FITE2018MTH12.jpg",
@@ -27,7 +29,9 @@ object BookList {
             "Henry Manampiring",
             "2018",
             "Non-Fiksi, Motivasi",
-            "Sinopsis"
+            "Filosofi Teras, diawali dengan menceritakan tentang sebuah survei kekhawatiran nasional yang semakin masif sekaligus menyajikan tentang sekilas kehidupan si penulis yang dipenuhi oleh emosi negatif yang berlebihan. Dalam buku ini dijelaskan bahwa penyebab emosi negatif atau kecemasan yang berlebihan disebabkan oleh rasio atau pola pikir yang keliru." +
+                    "Pada akhirnya, penulis menyarankan para pembaca untuk memperbaiki pola pikir yang keliru tersebut, dengan salah satu contohnya ialah menerapkan filsafat Stoa (Stoikisme) yang pada buku tersebut kemudian diterjemahkan sebagai \"Filsafat Teras\" dalam kehidupan sehari-hari." +
+                    "Dalam buku tersebut, filsafat Stoa digambarkan secara sederhana dengan inti dikotomi kendali nasib manusia, sehingga dari dikotomi kendali tersebut, manusia dapat menentukan hal-hal yang dapat membuatnya bahagia maupun tidak."
         ),
         Book(
             "https://upload.wikimedia.org/wikipedia/id/thumb/1/19/Buku_Habibie_Ainun.jpg/220px-Buku_Habibie_Ainun.jpg",
@@ -35,7 +39,9 @@ object BookList {
             "Bacharuddin Jusuf Habibie",
             "2010",
             "Biografi",
-            "sinopsis"
+            "Buku ini menceritakan berbagai kisah cinta menarik antara Pak Habibie dan Ibu Ainun. Mulai dari perjumpaan keduanya yang menjadi awal segalanya, keseharian dalam mengarungi bahtera rumah tangga hingga kejadian memilukan tatkala sang takdir Ilahi memisahkan keduanya." +
+                    "Selain itu para pembaca juga akan menemukan beberapa untaian doa dan puisi cinta yang pernah ditulis keduanya. Tak berlebihan jika Habibie mengatakan saat dirinya menulis buku ini tiap halamannya penuh dengan tetesan air mata." +
+                    "Menurutnya kehadiran Ainun yang telah mendampinginya selama ini, telah menjadi api yang selalu membakar energi semangat dan jiwanya dalam menjalani hidup. Sekaligus laksana air yang selalu menyiram dan meredakan gejolak jiwanya hingga kembali tenang."
         ),
         Book(
             "https://cdn.gramedia.com/uploads/items/Sang_Pemimpi_ofLeeOG.jpg",
@@ -43,7 +49,8 @@ object BookList {
             "Andrea Hirata",
             "2006",
             "Novel",
-            "Sinopsis"
+            "Sang Pemimpi Baru adalah novel kedua dalam tetralogi Laskar Pelangi karya Andrea Hirata yang diterbitkan oleh Bentang Pustaka pada Juli 2006. Dalam novel ini, Andrea mengeksplorasi hubungan persahabatannya dengan dua anak yatim piatu, Arai Ichsanul Mahidin dan Jimbron, serta kekuatan mimpi yang dapat membawa Andrea dan Arai melanjutkan studi ke Sorbonne, Paris, Prancis." +
+                    "Dalam novel Sang Pemimpi, Andrea Hirata bercerita tentang kehidupannya di Belitong pada masa SMA. Tiga tokoh utama dalam karya ini adalah Ikal, Arai dan Jimbron. Ikal tidak lain adalah Andrea Hirata sendiri, sedangkan Arai Ichsanul Mahidin adalah saudara jauhnya yang menjadi yatim piatu ketika masih kecil. Arai disebut simpai keramat karena dalam keluarganya ia adalah orang terakhir yang masih hidup dan ia pun diangkat menjadi anak oleh ayah Ikal. Jimbron merupakan teman Arai dan Ikal yang sangat terobsesi dengan kuda dan gagap bila sedang antusias terhadap sesuatu atau ketika gugup. Ketiganya melewati kisah persahabatan yang terjalin dari kecil hingga mereka bersekolah di SMA Negeri Bukan Main, SMA pertama yang berdiri di Belitung bagian timur."
         ),
         Book(
             "https://upload.wikimedia.org/wikipedia/id/e/ec/Edensor_sampul.jpg",
@@ -51,7 +58,8 @@ object BookList {
             "Andrea Hirata",
             "2007",
             "Novel",
-            "Sinopsis"
+            "Edensor adalah buku ketiga dari Tetralogi Laskar Pelangi karya Andrea Hirata yang diterbitkan oleh Bentang Pustaka pada bulan Mei tahun 2007. Berbeda dengan latar cerita dari dua buku sebelumnya, Laskar Pelangi dan Sang Pemimpi, Edensor mengambil latar di luar negeri saat tokoh-tokoh utamanya, Ikal dan Arai mendapat beasiswa dari Uni Eropa untuk kuliah S2 di Prancis." +
+                    "Dalam Edensor, Andrea tetap dengan ciri khasnya, menulis kisah ironi menjadi parodi dan menertawakan kesedihan dengan balutan pandangan intelegensia tentang culture shock ketika kedua tokoh utama tersebut yang berasal dari pedalaman Melayu di Pulau Belitong tiba-tiba berada di Paris. Mimpi-mimpi untuk menjelajah Eropa sampai Afrika dan menemukan keterkaitan yang tak terduga dari peristiwa-peristiwa dari masa lalu mereka berdua. Dan pencarian akan cinta sejati menjadi motivasi yang menyemangati penjelajahan mereka dari bekunya musim dingin di daratan Rusia di Eropa sampai panas kering di gurun"
         )
     )
 }

@@ -28,7 +28,7 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
                 .fitCenter()
                 .into(binding.ivBookCover)
 
-            val maxLength = 230 // Jumlah maksimal karakter yang ingin ditampilkan
+            val maxLength = 220 // Jumlah maksimal karakter yang ingin ditampilkan
             val ellipsis = "..." // Tanda elipsis yang akan ditambahkan jika teks terpotong
 
             val originalText = itemNow.synopsis
