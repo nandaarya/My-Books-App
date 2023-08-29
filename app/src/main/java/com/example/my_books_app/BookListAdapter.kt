@@ -43,6 +43,7 @@ class BookListAdapter : RecyclerView.Adapter<BookListAdapter.BookListViewHolder>
 
             binding.cardView.setOnClickListener {
                 val intent = Intent(itemView.context, DetailBookActivity::class.java)
+                intent.putExtra("bookData", itemNow)
                 itemView.context.startActivity(intent)
             }
         }
