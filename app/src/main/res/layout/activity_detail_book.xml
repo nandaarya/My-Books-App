@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Judul Buku"
+                android:text="@string/book_title"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Nama Penulis"
+                android:text="@string/author_name"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Tahun Terbit"
+                android:text="@string/publication_year"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Kategory"
+                android:text="@string/category"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 

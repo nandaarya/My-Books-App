@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My-Books-App</string>
+    <string name="book_title">Judul Buku: %s</string>
+    <string name="author_name">Nama Penulis: %s</string>
+    <string name="publication_year">Tahun Terbit: %s</string>
+    <string name="category">Kategory: %s</string>
 </resources>

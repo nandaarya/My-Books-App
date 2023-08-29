@@ -31,5 +31,11 @@ class DetailBookActivity : AppCompatActivity() {
             .with(this)
             .load(bookData?.bookCover)
             .into(binding.ivBookCover)
+
+        binding.tvBookTitle.text = getString(R.string.book_title, bookData?.bookTitle)
+        binding.tvAuthorName.text = getString(R.string.author_name, bookData?.authorName)
+        binding.tvPublicationYear.text = getString(R.string.publication_year, bookData?.publicationYear)
+        binding.tvCategory.text = getString(R.string.category, bookData?.category)
+        binding.tvSinopsis.text = bookData?.synopsis
     }
 }
