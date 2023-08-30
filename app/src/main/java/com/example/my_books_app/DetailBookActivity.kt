@@ -16,7 +16,17 @@ class DetailBookActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        supportActionBar?.title = "Detail Buku"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         setData()
+    }
+
+    @Suppress("DEPRECATION")
+    override fun onSupportNavigateUp(): Boolean {
+        // Tindakan ketika tombol kembali ditekan
+        onBackPressed()
+        return true
     }
 
     private fun setData() {

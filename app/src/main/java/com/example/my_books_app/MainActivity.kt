@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        supportActionBar?.title = "My Books App"
+
         setBookList()
     }
 
