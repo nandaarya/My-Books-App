@@ -5,4 +5,5 @@
     <string name="publication_year">Tahun Terbit: %s</string>
     <string name="category">Kategory: %s</string>
     <string name="image_logo">image logo</string>
+    <string name="main_title">List Buku Favorit</string>
 </resources>
