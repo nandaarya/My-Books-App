@@ -6,4 +6,8 @@
     <string name="category">Kategory: %s</string>
     <string name="image_logo">image logo</string>
     <string name="main_title">List Buku Favorit</string>
+    <string name="about">About</string>
+    <string name="name">Nanda Arya Putra</string>
+    <string name="email">nandaarya404@gmail.com</string>
+    <string name="profile_image">profile image</string>
 </resources>
