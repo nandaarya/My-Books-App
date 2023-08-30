@@ -4,4 +4,5 @@
     <string name="author_name">Nama Penulis: %s</string>
     <string name="publication_year">Tahun Terbit: %s</string>
     <string name="category">Kategory: %s</string>
+    <string name="image_logo">image logo</string>
 </resources>
