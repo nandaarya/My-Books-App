@@ -60,6 +60,24 @@ object BookList {
             "Novel",
             "Edensor adalah buku ketiga dari Tetralogi Laskar Pelangi karya Andrea Hirata yang diterbitkan oleh Bentang Pustaka pada bulan Mei tahun 2007. Berbeda dengan latar cerita dari dua buku sebelumnya, Laskar Pelangi dan Sang Pemimpi, Edensor mengambil latar di luar negeri saat tokoh-tokoh utamanya, Ikal dan Arai mendapat beasiswa dari Uni Eropa untuk kuliah S2 di Prancis." +
                     "Dalam Edensor, Andrea tetap dengan ciri khasnya, menulis kisah ironi menjadi parodi dan menertawakan kesedihan dengan balutan pandangan intelegensia tentang culture shock ketika kedua tokoh utama tersebut yang berasal dari pedalaman Melayu di Pulau Belitong tiba-tiba berada di Paris. Mimpi-mimpi untuk menjelajah Eropa sampai Afrika dan menemukan keterkaitan yang tak terduga dari peristiwa-peristiwa dari masa lalu mereka berdua. Dan pencarian akan cinta sejati menjadi motivasi yang menyemangati penjelajahan mereka dari bekunya musim dingin di daratan Rusia di Eropa sampai panas kering di gurun"
+        ),
+        Book(
+            "https://cdn.gramedia.com/uploads/items/9786020333175_rich-dad-poor-dad-_edisi-revisi_.jpg",
+            "Rich Dad Poor Dad",
+            "Robert T. Kiyosaki",
+            "2016",
+            "Bisnis & Keuangan",
+            "Rich Dad Poor Dad adalah buku yang mengajarkan konsep keuangan pribadi dan investasi dengan sudut pandang yang unik. Dalam buku ini, penulis, Robert T. Kiyosaki, berbagi pengalaman belajar dari dua sosok ayah dalam hidupnya. Ayah pertama adalah 'Ayah Kaya', seorang pengusaha sukses dan mentor finansial yang memberikan pelajaran berharga tentang bagaimana mengelola uang dan berinvestasi. Sementara itu, ayah kedua adalah 'Ayah Miskin', ayah kandung Kiyosaki yang memiliki pandangan tradisional tentang uang dan bekerja untuk memenuhi kebutuhan sehari-hari." +
+            "Melalui perbandingan antara pandangan kedua ayah ini, Kiyosaki mengungkapkan perbedaan mendasar dalam cara mereka memandang uang, aset, dan tanggung jawab finansial. Buku ini tidak hanya mengajarkan tentang manajemen uang, tetapi juga tentang bagaimana membangun sikap mental yang benar terhadap kekayaan dan investasi. Dengan cerita yang menginspirasi dan strategi praktis, buku ini mendorong pembaca untuk memahami pentingnya pendidikan finansial, mengatasi ketakutan terhadap risiko, dan meraih kebebasan finansial melalui pemahaman yang lebih mendalam tentang uang."
+        ),
+        Book(
+            "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sebuah-seni-untuk-bersikap-bodoh-amat.jpg",
+            "Seni Bersikap Bodo Amat",
+            "Mark Manson",
+            "2016",
+            "Pengembangan Diri",
+            "Seni Bersikap Bodo Amat (The Subtle Art of Not Giving a F*ck) adalah buku yang menawarkan perspektif radikal tentang mencari makna dan kebahagiaan dalam hidup. Ditulis oleh Mark Manson, buku ini menantang pandangan konvensional tentang pencapaian dan kebahagiaan dengan mengajukan pertanyaan penting: Apa yang benar-benar penting dalam hidup kita? Buku ini menunjukkan bahwa fokus pada segala hal yang positif dan mencari kesenangan semata dapat mengakibatkan kekecewaan dan ketidakpuasan." +
+            "Manson mengajak pembaca untuk menghadapi kenyataan dan menerima ketidaksempurnaan diri. Dengan bahasa yang lugas dan berani, ia mengajarkan bagaimana mengalihkan perhatian dari hal-hal yang kurang berarti dan merangkul ketidakpastian. Buku ini membahas tentang memilih nilai-nilai yang benar-benar penting dalam hidup, memperkuat keterampilan menghadapi masalah, dan mengembangkan rasa keterikatan dengan diri sendiri dan orang lain. Dengan pendekatan yang menghibur dan penuh wawasan, buku ini mengajak pembaca untuk menjalani kehidupan yang lebih otentik, tulus, dan penuh makna."
         )
     )
 }
