@@ -65,10 +65,10 @@ object BookList {
             "https://cdn.gramedia.com/uploads/items/9786020333175_rich-dad-poor-dad-_edisi-revisi_.jpg",
             "Rich Dad Poor Dad",
             "Robert T. Kiyosaki",
-            "2016",
+            "1997",
             "Bisnis & Keuangan",
             "Rich Dad Poor Dad adalah buku yang mengajarkan konsep keuangan pribadi dan investasi dengan sudut pandang yang unik. Dalam buku ini, penulis, Robert T. Kiyosaki, berbagi pengalaman belajar dari dua sosok ayah dalam hidupnya. Ayah pertama adalah 'Ayah Kaya', seorang pengusaha sukses dan mentor finansial yang memberikan pelajaran berharga tentang bagaimana mengelola uang dan berinvestasi. Sementara itu, ayah kedua adalah 'Ayah Miskin', ayah kandung Kiyosaki yang memiliki pandangan tradisional tentang uang dan bekerja untuk memenuhi kebutuhan sehari-hari." +
-            "Melalui perbandingan antara pandangan kedua ayah ini, Kiyosaki mengungkapkan perbedaan mendasar dalam cara mereka memandang uang, aset, dan tanggung jawab finansial. Buku ini tidak hanya mengajarkan tentang manajemen uang, tetapi juga tentang bagaimana membangun sikap mental yang benar terhadap kekayaan dan investasi. Dengan cerita yang menginspirasi dan strategi praktis, buku ini mendorong pembaca untuk memahami pentingnya pendidikan finansial, mengatasi ketakutan terhadap risiko, dan meraih kebebasan finansial melalui pemahaman yang lebih mendalam tentang uang."
+                    "Melalui perbandingan antara pandangan kedua ayah ini, Kiyosaki mengungkapkan perbedaan mendasar dalam cara mereka memandang uang, aset, dan tanggung jawab finansial. Buku ini tidak hanya mengajarkan tentang manajemen uang, tetapi juga tentang bagaimana membangun sikap mental yang benar terhadap kekayaan dan investasi. Dengan cerita yang menginspirasi dan strategi praktis, buku ini mendorong pembaca untuk memahami pentingnya pendidikan finansial, mengatasi ketakutan terhadap risiko, dan meraih kebebasan finansial melalui pemahaman yang lebih mendalam tentang uang."
         ),
         Book(
             "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sebuah-seni-untuk-bersikap-bodoh-amat.jpg",
@@ -77,7 +77,26 @@ object BookList {
             "2016",
             "Pengembangan Diri",
             "Seni Bersikap Bodo Amat (The Subtle Art of Not Giving a F*ck) adalah buku yang menawarkan perspektif radikal tentang mencari makna dan kebahagiaan dalam hidup. Ditulis oleh Mark Manson, buku ini menantang pandangan konvensional tentang pencapaian dan kebahagiaan dengan mengajukan pertanyaan penting: Apa yang benar-benar penting dalam hidup kita? Buku ini menunjukkan bahwa fokus pada segala hal yang positif dan mencari kesenangan semata dapat mengakibatkan kekecewaan dan ketidakpuasan." +
-            "Manson mengajak pembaca untuk menghadapi kenyataan dan menerima ketidaksempurnaan diri. Dengan bahasa yang lugas dan berani, ia mengajarkan bagaimana mengalihkan perhatian dari hal-hal yang kurang berarti dan merangkul ketidakpastian. Buku ini membahas tentang memilih nilai-nilai yang benar-benar penting dalam hidup, memperkuat keterampilan menghadapi masalah, dan mengembangkan rasa keterikatan dengan diri sendiri dan orang lain. Dengan pendekatan yang menghibur dan penuh wawasan, buku ini mengajak pembaca untuk menjalani kehidupan yang lebih otentik, tulus, dan penuh makna."
+                    "Manson mengajak pembaca untuk menghadapi kenyataan dan menerima ketidaksempurnaan diri. Dengan bahasa yang lugas dan berani, ia mengajarkan bagaimana mengalihkan perhatian dari hal-hal yang kurang berarti dan merangkul ketidakpastian. Buku ini membahas tentang memilih nilai-nilai yang benar-benar penting dalam hidup, memperkuat keterampilan menghadapi masalah, dan mengembangkan rasa keterikatan dengan diri sendiri dan orang lain. Dengan pendekatan yang menghibur dan penuh wawasan, buku ini mengajak pembaca untuk menjalani kehidupan yang lebih otentik, tulus, dan penuh makna."
+        ),
+        Book(
+            "https://assets-a1.kompasiana.com/items/album/2020/02/10/img-20200210-144355-jpg-5e410e40097f365f653b5472.jpg",
+            "Atomic Habits",
+            "James Clear",
+            "2018",
+            "Pengembangan Diri",
+            "Atomic Habits adalah buku yang ditulis oleh James Clear yang membahas tentang kebiasaan-kebiasaan kecil yang dapat membawa perubahan besar dalam hidup seseorang. Clear menjelaskan bahwa perubahan yang signifikan tidak terjadi secara tiba-tiba, melainkan melalui akumulasi kebiasaan-kebiasaan kecil yang dilakukan secara konsisten. Dalam buku ini, Clear memberikan strategi dan tips untuk mengubah kebiasaan buruk menjadi kebiasaan baik, serta memperkuat kebiasaan baik yang sudah ada. Ia juga membahas tentang pentingnya lingkungan dalam membentuk kebiasaan dan memberikan tips untuk merancang lingkungan yang mendukung kebiasaan yang diinginkan. Dengan pendekatan yang praktis dan ilmiah, James Clear mengajarkan pembaca bagaimana mengubah kebiasaan-kebiasaan kecil menjadi kekuatan yang mengubah hidup secara keseluruhan." +
+                    "Atomic Habits telah menjadi buku yang populer di kalangan pembaca yang tertarik untuk mengembangkan diri dan mencapai tujuan hidup yang lebih baik. Buku ini memberikan wawasan dan strategi yang dapat diterapkan oleh siapa saja yang ingin mencapai perubahan positif dalam hidup mereka. Dengan mengikuti konsep \"four laws of behavior change\" dan merancang lingkungan yang mendukung, pembaca dapat mengubah kebiasaan-kebiasaan kecil menjadi kekuatan yang membawa mereka menuju kesuksesan. Atomic Habits menawarkan pendekatan yang praktis dan ilmiah untuk mengubah kebiasaan-kebiasaan dan membentuk identitas yang lebih baik."
+        ),
+        Book(
+            "https://cdn.gramedia.com/uploads/items/psychology_of_money.jpg",
+            "Psychology of Money",
+            "Morgan Housel",
+            "2020",
+            "Pengembangan Diri",
+            "Psychology of Money adalah buku yang ditulis oleh Morgan Housel dan diterbitkan pada tahun 2020. Buku ini mengungkapkan hubungan antara psikologi dan keuangan, dan bagaimana pemahaman tentang psikologi dapat membantu seseorang dalam mengelola keuangan mereka." +
+                    "Dalam buku ini, Morgan Housel mengajukan pertanyaan penting seperti mengapa beberapa orang kaya tetap hidup dalam kemiskinan dan mengapa beberapa orang miskin bisa menjadi kaya. Ia juga membahas tentang bagaimana persepsi dan emosi manusia mempengaruhi keputusan finansial mereka. Dengan menggunakan contoh-contoh nyata dan cerita dari kehidupan nyata, Housel mengajarkan pembaca untuk memahami pola pikir yang salah tentang uang dan bagaimana mengubahnya menjadi pola pikir yang lebih sehat dan bijak dalam mengelola keuangan." +
+                    "Buku ini juga membahas tentang pentingnya kesabaran dan disiplin dalam mengelola keuangan, serta bagaimana membangun kekayaan dalam jangka panjang. Dengan gaya penulisan yang jelas dan mudah dipahami, Psychology of Money menjadi panduan yang berguna bagi siapa saja yang ingin memahami psikologi keuangan dan mengambil keputusan finansial yang lebih baik."
         )
     )
 }
