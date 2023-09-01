@@ -18,7 +18,7 @@
             android:paddingBottom="16dp"
             android:gravity="center"
             android:text="Data Buku"
-            android:textSize="28sp" />
+            style="@style/MainTitle" />
 
         <ImageView
             android:id="@+id/iv_book_cover"
@@ -42,7 +42,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="@string/book_title"
-                android:textSize="18sp" />
+                style="@style/Header" />
 
             <TextView
                 android:id="@+id/tv_author_name"
@@ -51,7 +51,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="@string/author_name"
-                android:textSize="18sp" />
+                style="@style/Header" />
 
             <TextView
                 android:id="@+id/tv_publication_year"
@@ -60,7 +60,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="@string/publication_year"
-                android:textSize="18sp" />
+                style="@style/Header" />
 
             <TextView
                 android:id="@+id/tv_category"
@@ -69,7 +69,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="@string/category"
-                android:textSize="18sp" />
+                style="@style/Header" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -86,7 +86,7 @@
                 android:gravity="center_vertical"
                 android:paddingBottom="8dp"
                 android:text="Sinopsis"
-                android:textSize="18sp" />
+                style="@style/HeaderBold" />
 
             <TextView
                 android:id="@+id/tv_sinopsis"
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:text="Isi Sinopsis"
-                android:textSize="16sp" />
+                style="@style/Caption" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.appcompat.widget.LinearLayoutCompat>

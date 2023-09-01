@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:text="Judul"
                 android:layout_marginBottom="8dp"
-                android:textSize="18sp" />
+                style="@style/Header" />
 
             <TextView
                 android:id="@+id/tv_sinopsis"
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:text="Sinopsis"
-                android:textSize="12sp" />
+                style="@style/SubHeader" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
