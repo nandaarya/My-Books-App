@@ -97,6 +97,25 @@ object BookList {
             "Psychology of Money adalah buku yang ditulis oleh Morgan Housel dan diterbitkan pada tahun 2020. Buku ini mengungkapkan hubungan antara psikologi dan keuangan, dan bagaimana pemahaman tentang psikologi dapat membantu seseorang dalam mengelola keuangan mereka." +
                     "Dalam buku ini, Morgan Housel mengajukan pertanyaan penting seperti mengapa beberapa orang kaya tetap hidup dalam kemiskinan dan mengapa beberapa orang miskin bisa menjadi kaya. Ia juga membahas tentang bagaimana persepsi dan emosi manusia mempengaruhi keputusan finansial mereka. Dengan menggunakan contoh-contoh nyata dan cerita dari kehidupan nyata, Housel mengajarkan pembaca untuk memahami pola pikir yang salah tentang uang dan bagaimana mengubahnya menjadi pola pikir yang lebih sehat dan bijak dalam mengelola keuangan." +
                     "Buku ini juga membahas tentang pentingnya kesabaran dan disiplin dalam mengelola keuangan, serta bagaimana membangun kekayaan dalam jangka panjang. Dengan gaya penulisan yang jelas dan mudah dipahami, Psychology of Money menjadi panduan yang berguna bagi siapa saja yang ingin memahami psikologi keuangan dan mengambil keputusan finansial yang lebih baik."
+        ),
+        Book(
+            "https://ebooks.gramedia.com/ebook-covers/49508/image_highres/ID_BTD2019MTH10BTD.jpg",
+            "Berani Tidak Disukai",
+            "Ichiro Kishimi dan Fumitake Koga",
+            "2013",
+            "Pengembangan Diri",
+            "Berani Tidak Disukai adalah buku yang ditulis oleh Ichiro Kishimi dan Fumitake Koga, dan diterbitkan pada tahun 2013. Buku ini mengajarkan pembaca untuk mengubah cara pandang mereka tentang diri sendiri dan hubungan dengan orang lain." +
+                    "Dalam buku ini, penulis menggunakan pendekatan psikologi Adlerian untuk membantu pembaca memahami konsep diri, keberanian, dan hubungan interpersonal. Mereka menekankan pentingnya menerima diri sendiri dan menghargai orang lain tanpa terlalu bergantung pada persetujuan atau pengakuan dari orang lain. Buku ini juga membahas tentang bagaimana mengatasi rasa takut dan kekhawatiran yang sering menghambat seseorang dalam mencapai potensi penuh mereka." +
+                    "Dengan menggunakan dialog antara seorang pemuda yang mencari bimbingan dan seorang filsuf yang memberikan nasihat, Berani Tidak Disukai mengajarkan pembaca untuk memahami bahwa mereka memiliki kekuatan untuk mengubah hidup mereka sendiri dan menciptakan hubungan yang sehat dan bermakna dengan orang lain. Buku ini memberikan wawasan yang berharga tentang bagaimana menghadapi tantangan hidup dengan keberanian dan mengembangkan sikap yang positif dalam menghadapi kritik dan penolakan."
+        ),
+        Book(
+            "https://cdn.gramedia.com/uploads/items/img20190902_16534294.jpg",
+            "The Power of Habit",
+            "Charles Duhigg",
+            "2012",
+            "Pengembangan Diri",
+            "The Power of Habit adalah buku yang ditulis oleh Charles Duhigg dan diterbitkan pada tahun 2012. Buku ini mengungkapkan penelitian ilmiah tentang kebiasaan dan bagaimana kita dapat mengubah kebiasaan yang tidak diinginkan. Charles Duhigg, seorang jurnalis investigasi, memadukan penelitian psikologi, neurologi, dan ilmu perilaku untuk memberikan wawasan tentang bagaimana kebiasaan terbentuk dan bagaimana kita dapat mengubahnya." +
+                    "Dalam buku ini, Duhigg menggambarkan sebuah konsep yang disebut dengan siklus kebiasaan, yaitu terdiri dari tiga langkah: pemicu (cue), rutinitas (routine), dan hadiah (reward). Ia menjelaskan bagaimana pemicu tertentu dapat memicu kebiasaan tertentu, dan bagaimana hadiah yang kita dapatkan setelah melakukan kebiasaan tersebut memperkuat kebiasaan tersebut. Duhigg juga mengungkapkan bagaimana kebiasaan dapat membentuk pola perilaku yang lebih besar, baik dalam kehidupan pribadi maupun dalam organisasi. Buku ini memberikan wawasan yang berharga tentang bagaimana kita dapat mengubah kebiasaan yang tidak diinginkan dan membentuk kebiasaan yang lebih produktif dan positif."
         )
     )
 }
